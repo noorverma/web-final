@@ -3,9 +3,9 @@ import ContactForm from "../components/contact-form";
 
 export default function Contact() {
   return (
-   <>
-    <Navbar />
-    <ContactForm />
-   </>
+    <div>
+
+      <ContactForm />
+    </div>
   );
 }
