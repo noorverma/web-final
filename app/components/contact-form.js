@@ -5,7 +5,7 @@ import React from 'react';
 
 const ContactForm = () =>{
     return(
-        <div className='flex h-4/6 align-center justify center m-auto my-40'>
+        <div className='flex h-screen align-center bg-navbar justify center m-auto'>
         <form className='justify-center m-auto border-2 rounded-lg p-10'>
             <div className='justify-center text-center text-xl font-bold'> Get in Contact </div>
             <div className='m-3'>
@@ -21,7 +21,7 @@ const ContactForm = () =>{
             <textarea id='message' name='message' className='border-2 border-black ml-4'/>
             </div>
             <div className='ml-32 justify-center ' >
-            <button className='bg-yellow-200 px-3 py-2 rounded-md text-black' type='submit'>Submit</button>
+            <button className='bg-black text-navbar px-3 py-2 rounded-md text-' type='submit'>Submit</button>
             </div>
         </form>
         </div>
