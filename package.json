@@ -9,19 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "framer-motion": "^11.3.23",
-    "next": "^14.2.5",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-=======
     "@react-email/components": "0.0.22",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
     "react-email": "2.1.6",
     "resend": "^3.5.0"
->>>>>>> ed204573958c64751b8bf4f4fa507a428a1874f8
   },
   "devDependencies": {
     "eslint": "^8",
