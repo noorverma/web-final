@@ -31,6 +31,11 @@ export default function Home() {
                 <img src="/icons/dev.png" alt="Dev.to" width={40} height={40} />
               </a>
             </div> */}
+            <div>
+               <a href="https://www.instagram.com/cd.idesign/" target="_blank" rel="noopener noreferrer">
+                <img className="rounded-full shadow-md border mt-5" src="/instalogo.jpg" alt="Dev.to" width={40} height={40} />
+              </a>
+            </div>
           </div>
           <div className="relative w-48 h-48 md:w-56 md:h-56">
             <img
