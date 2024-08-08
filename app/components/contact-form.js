@@ -56,7 +56,7 @@ const ContactForm = () => {
           <textarea id='message' name='message' value={formData.message} onChange={handleChange} className='border-2 border-black ml-4 w-auto' />
         </div>
         <div className='flex justify-center mt-6'>
-          <button className='bg-black text-white px-6 py-2 rounded-md' type='submit'>Submit</button>
+          <button className='bg-black text-white px-6 py-2 rounded-md shadow-xl' type='submit'>Submit</button>
         </div>
         {status && <p className='text-center mt-4'>{status}</p>}
       </form>
