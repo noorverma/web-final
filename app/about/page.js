@@ -24,7 +24,7 @@ export default function About() {
           </div>
           <div className="md:w-1/2 flex justify-center items-center p-0">
             <Image
-              src="/about.png"
+              src="/about.jpg"
               alt="Profile Picture"
               width={300}
               height={300}

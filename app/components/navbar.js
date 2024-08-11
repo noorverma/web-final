@@ -4,12 +4,12 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <nav className="bg-navbar fixed w-screen shadow-xl ">
+        <nav className="bg-navbar fixed w-screen shadow-xl z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     <div className="flex items-center justify-between h-16">
                         <Link href="/" className="flex item-center gap-3">
-                            <img src='/logo.png' className='w-16 h-16 mr-2 rounded-full' alt="Profile"/>
+                            <img src='/nav_logo.png' className=' h-12' alt="Profile"/>
                             <p className="flex text-black font-bold text-center align-middle justify-center items-center">Calvin Dang</p>
                         </Link>
                         <div className="hidden sm:block sm:ml-6">
