@@ -4,8 +4,8 @@ import Image from "next/image";
 import { useState } from "react";
 
 export default function Projects() {
-    const [isOpen, setIsOpen] = useState(false); // State to manage modal visibility
-    const [selectedProject, setSelectedProject] = useState(null); // State to manage selected project
+    const [isOpen, setIsOpen] = useState(false);
+    const [selectedProject, setSelectedProject] = useState(null);
 
     const projects = [
         {
