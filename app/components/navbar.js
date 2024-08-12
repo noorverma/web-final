@@ -1,6 +1,7 @@
 'use client'
 import Link from 'next/link';
 import React from 'react';
+import Image from 'next/image';
 
 const Navbar = () => {
     return (
@@ -9,7 +10,7 @@ const Navbar = () => {
                 <div className="flex items-center justify-between h-16">
                     <div className="flex items-center justify-between h-16">
                         <Link href="/" className="flex item-center gap-3">
-                            <img src='/nav_logo.png' className=' h-12' alt="Profile"/>
+                            <Image src='/nav_logo.png' className=' h-12' alt="Profile"/>
                             <p className="flex text-black font-bold text-center align-middle justify-center items-center">Calvin Dang</p>
                         </Link>
                         <div className="hidden sm:block sm:ml-6">

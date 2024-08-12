@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -20,7 +20,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
+                <Image
                   className="shadow-md border mt-5"
                   src="/instalogo.jpg"
                   alt="Instagram Profile"
