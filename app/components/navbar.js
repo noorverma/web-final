@@ -1,7 +1,6 @@
-'use client'
-import Link from 'next/link';
-import React from 'react';
-import Image from 'next/image';
+"use client";
+import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
     return (
@@ -10,21 +9,40 @@ const Navbar = () => {
                 <div className="flex items-center justify-between h-16">
                     <div className="flex items-center justify-between h-16">
                         <Link href="/" className="flex item-center gap-3">
-                            <Image src='/nav_logo.png' className=' h-12' alt="Profile"/>
-                            <p className="flex text-black font-bold text-center align-middle justify-center items-center">Calvin Dang</p>
+                            <Image
+                                src="/nav_logo.png"
+                                width={100}
+                                height={100}
+                                alt="Profile"
+                            />
+                            <p className="flex text-black font-bold text-center align-middle justify-center items-center">
+                                Calvin Dang
+                            </p>
                         </Link>
                         <div className="hidden sm:block sm:ml-6">
                             <div className="flex absolute space-x-4 right-24 top-3">
-                                <Link href="/" className="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                                <Link
+                                    href="/"
+                                    className="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                >
                                     Home
                                 </Link>
-                                <Link href="/about" className="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                                <Link
+                                    href="/about"
+                                    className="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                >
                                     About
                                 </Link>
-                                <Link href="/projects" className="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                                <Link
+                                    href="/projects"
+                                    className="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                >
                                     Projects
                                 </Link>
-                                <Link href="/contact" className="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                                <Link
+                                    href="/contact"
+                                    className="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                >
                                     Contact
                                 </Link>
                             </div>
