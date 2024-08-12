@@ -21,7 +21,7 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <Image
-                  className="shadow-md border mt-5"
+                  className="shadow-md border mt-5 rounded-full"
                   src="/instalogo.jpg"
                   alt="Instagram Profile"
                   width={40}
@@ -31,10 +31,11 @@ export default function Home() {
             </div>
           </div>
           <div className="relative w-48 h-48 md:w-56 md:h-56">
-            <img
+            <Image
               src="/logo.png"
               alt="Profile Image"
-              className='rounded-full'
+              width={200}
+              height={200}
             />
           </div>
         </div>
