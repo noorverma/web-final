@@ -14,23 +14,6 @@ export default function Home() {
             <p className="text-xl text-black md:text-2xl mt-4 font-bold">
               I AM INTO <span className="text-black">INTERIOR DESIGNING</span>
             </p>
-            {/* <div className="mt-6 flex justify-center md:justify-start space-x-4">
-              <a  href="https://www.linkedin.com/in/noor-verma-42ba261ba/" target="_blank" rel="noopener noreferrer">
-                <img className="rounded-full shadow-md border" src="/linkedIn.jpg" alt="LinkedIn" width={40} height={40} />
-              </a>
-              <a href="https://github.com/noorverma" target="_blank" rel="noopener noreferrer">
-                <img src="/github.jpg" alt="GitHub" width={40} height={40} />
-              </a>
-              <a href="https://www.pinterest.ca/noorverma2/" target="_blank" rel="noopener noreferrer">
-                <img src="/pinterest.jpg" alt="Twitter" width={40} height={40} />
-              </a>
-              <a href="https://telegram.me/yourprofile" target="_blank" rel="noopener noreferrer">
-                <img src="/icons/telegram.png" alt="Telegram" width={40} height={40} />
-              </a>
-              <a href="https://dev.to/yourprofile" target="_blank" rel="noopener noreferrer">
-                <img src="/icons/dev.png" alt="Dev.to" width={40} height={40} />
-              </a>
-            </div> */}
              <div>
               <a
                 href="https://www.instagram.com/cd.idesign/"
