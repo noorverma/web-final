@@ -8,13 +8,13 @@ export default function Home() {
           <div className="flex-1 text-center md:text-left">
             <h1 className="text-4xl text-black md:text-5xl font-bold">
               Hi There, <br />
-              I'm <span className="text-black">Calvin</span>{" "}
+              I am<span className="text-black">Calvin</span>{" "}
               <span className="text-black">Dang</span>
             </h1>
             <p className="text-xl text-black md:text-2xl mt-4 font-bold">
               I AM INTO <span className="text-black">INTERIOR DESIGNING</span>
             </p>
-             <div>
+            <div>
               <a
                 href="https://www.instagram.com/cd.idesign/"
                 target="_blank"
